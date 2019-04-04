@@ -11,6 +11,7 @@ import { CmisComponent } from './home/departments/cmis/cmis.component';
 import { ImgtComponent } from './home/departments/imgt/imgt.component';
 import { EltnComponent } from './home/departments/eltn/eltn.component';
 import { MathComponent } from './home/departments/math/math.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MathComponent } from './home/departments/math/math.component';
     CmisComponent,
     ImgtComponent,
     EltnComponent,
-    MathComponent
+    MathComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
