@@ -6,13 +6,23 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { HomeComponent } from './home/home.component';
+import { DepartmentsComponent } from './home/departments/departments.component';
+import { CmisComponent } from './home/departments/cmis/cmis.component';
+import { ImgtComponent } from './home/departments/imgt/imgt.component';
+import { EltnComponent } from './home/departments/eltn/eltn.component';
+import { MathComponent } from './home/departments/math/math.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     CarouselComponent,
-    HomeComponent
+    HomeComponent,
+    DepartmentsComponent,
+    CmisComponent,
+    ImgtComponent,
+    EltnComponent,
+    MathComponent
   ],
   imports: [
     BrowserModule,
