@@ -12,6 +12,7 @@ import { ImgtComponent } from './home/departments/imgt/imgt.component';
 import { EltnComponent } from './home/departments/eltn/eltn.component';
 import { MathComponent } from './home/departments/math/math.component';
 import { FooterComponent } from './footer/footer.component';
+import { CardsComponent } from './home/cards/cards.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     ImgtComponent,
     EltnComponent,
     MathComponent,
-    FooterComponent
+    FooterComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

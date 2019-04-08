@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .navbar-brand{
         font-size: 11px;
     }
