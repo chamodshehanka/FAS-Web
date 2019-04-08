@@ -13,6 +13,7 @@ import { EltnComponent } from './home/departments/eltn/eltn.component';
 import { MathComponent } from './home/departments/math/math.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './home/cards/cards.component';
+import { SponsorsComponent } from './home/sponsors/sponsors.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CardsComponent } from './home/cards/cards.component';
     EltnComponent,
     MathComponent,
     FooterComponent,
-    CardsComponent
+    CardsComponent,
+    SponsorsComponent
   ],
   imports: [
     BrowserModule,
