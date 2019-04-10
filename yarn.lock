@@ -5166,6 +5166,11 @@ postcss@7.0.14, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.13:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
+primeng@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/primeng/-/primeng-7.1.0.tgz#6aa19f6867e9724b71713634412da1cd7b6fa638"
+  integrity sha512-uUkiKtGjCJN4Hz5fKliiw8/UvkOC7RV4oWOmoDY1el2Y2NDCyQIUI9t4QbyoPeyZzL1CggBbFsVPkqnQg+oVxA==
+
 process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
