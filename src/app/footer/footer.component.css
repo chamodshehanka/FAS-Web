@@ -3,6 +3,14 @@
     width: 100%;
 }
 
-text {
-  color: white;
+.footer-bottom {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+h5 {
+  text-transform: uppercase;
+  color: aliceblue;
 }
