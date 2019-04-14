@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './home/cards/cards.component';
 import { SponsorsComponent } from './home/sponsors/sponsors.component';
 import { StudentsLifeComponent } from './students-life/students-life.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { StudentsLifeComponent } from './students-life/students-life.component';
     FooterComponent,
     CardsComponent,
     SponsorsComponent,
-    StudentsLifeComponent
+    StudentsLifeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
