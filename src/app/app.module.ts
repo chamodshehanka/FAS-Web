@@ -14,6 +14,7 @@ import { MathComponent } from './home/departments/math/math.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './home/cards/cards.component';
 import { SponsorsComponent } from './home/sponsors/sponsors.component';
+import { StudentsLifeComponent } from './students-life/students-life.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SponsorsComponent } from './home/sponsors/sponsors.component';
     MathComponent,
     FooterComponent,
     CardsComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    StudentsLifeComponent
   ],
   imports: [
     BrowserModule,
