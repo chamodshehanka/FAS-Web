@@ -16,6 +16,7 @@ import { CardsComponent } from './home/cards/cards.component';
 import { SponsorsComponent } from './home/sponsors/sponsors.component';
 import { StudentsLifeComponent } from './students-life/students-life.component';
 import { ContactComponent } from './contact/contact.component';
+import { ProjectsComponent } from './home/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ContactComponent } from './contact/contact.component';
     CardsComponent,
     SponsorsComponent,
     StudentsLifeComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
