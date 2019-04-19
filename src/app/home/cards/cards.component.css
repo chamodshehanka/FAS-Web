@@ -1,5 +1,6 @@
 .section-card{
     background-color: #212121;
+    /* border: 1px solid red; */
 }
 
 h1{
@@ -8,4 +9,11 @@ h1{
 
 p {
     color: whitesmoke;
+}
+
+.shape {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    border: 0;
 }
