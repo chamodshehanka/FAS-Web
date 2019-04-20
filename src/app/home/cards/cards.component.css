@@ -10,10 +10,3 @@ h1{
 p {
     color: whitesmoke;
 }
-
-.shape {
-    position: absolute;
-    bottom: 1;
-    left: 0;
-    border: 0;
-}
