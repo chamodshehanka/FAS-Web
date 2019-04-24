@@ -6,10 +6,10 @@ import * as Material from '@angular/material';
   declarations: [],
   imports: [
     CommonModule,
-    Material.MatButton,
+    Material.MatButtonModule,
   ],
   exports: [
-    Material.MatButton,
+    Material.MatButtonModule,
   ]
 })
 export class MaterialModule { }

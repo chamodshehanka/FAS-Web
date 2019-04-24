@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CarouselComponent } from './home/carousel/carousel.component';
+import { MaterialModule } from './material/material.module';
 import { HomeComponent } from './home/home.component';
 import { DepartmentsComponent } from './home/departments/departments.component';
 import { CmisComponent } from './home/departments/cmis/cmis.component';
@@ -38,7 +39,8 @@ import { ProjectsComponent } from './home/projects/projects.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
